@@ -1,0 +1,40 @@
+.place {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 80px 148px;
+}
+
+.place:last-of-type {
+  padding: 0 0 0px 148px;
+}
+
+@media screen and (max-width: 1155px) {
+  .place {
+    padding: 0 0 80px 48px;
+  }
+
+  .place:last-of-type {
+    padding: 0 0 0px 48px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .place {
+    padding: 0 0 80px 24px;
+  }
+  .place:last-of-type {
+    padding: 0 0 0px 24px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .place {
+    flex-direction: column;
+    padding: 0 0 0 16px;
+    margin: 0;
+  }
+
+  .place:last-of-type {
+    padding: 0 0 0px 16px;
+  }
+}

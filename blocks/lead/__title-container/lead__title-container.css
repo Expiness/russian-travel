@@ -1,0 +1,31 @@
+.lead__title-container {
+  display: flex;
+  justify-content: center;
+  margin: 56px auto 32px auto;
+  max-width: 720px;
+}
+
+@media screen and (max-width: 1155px) {
+  .lead__title-container {
+    margin: 48px auto 32px auto;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .lead__title-container {
+    margin: 48px auto 32px auto;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .lead__title-container {
+    margin: 48px auto 16px auto;
+    max-width: 288px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__title-container {
+    margin: 64px 0 0 16px;
+  }
+}

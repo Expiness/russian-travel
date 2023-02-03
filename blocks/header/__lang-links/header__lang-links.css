@@ -1,0 +1,21 @@
+.header__lang-links {
+  display: flex;
+  list-style: none;
+  padding: 46px 48px 0 0;
+  margin: 0;
+  gap: 18px;
+  font-family: 'Inter Regular';
+}
+
+@media screen and (max-width: 770px) {
+  .header__lang-links {
+    padding: 46px 24px 0 0;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .header__lang-links {
+    padding: 30px 16px 0 0;
+  }
+}
+

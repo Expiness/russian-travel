@@ -1,0 +1,25 @@
+.intro__list-container {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 32px 0 0 148px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1155px) {
+  .intro__list-container {
+    margin: 32px 0 0 48px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .intro__list-container {
+    margin: 32px 0 0 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__list-container {
+    margin: 32px 0 0 16px;
+  }
+}

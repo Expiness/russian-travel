@@ -1,0 +1,20 @@
+.footer__author {
+  margin: 0;
+  font-family: 'Inter Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 695px) {
+  .footer__author {
+    margin: 0;
+    font-family: 'Inter Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    padding-top: 48px;
+  }
+}
