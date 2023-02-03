@@ -4,7 +4,7 @@
   padding: 46px 48px 0 0;
   margin: 0;
   gap: 18px;
-  font-family: 'Inter Regular';
+  font-family: 'Inter Regular', serif;
 }
 
 @media screen and (max-width: 770px) {
