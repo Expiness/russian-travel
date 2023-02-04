@@ -6,16 +6,6 @@
   margin: 0;
 }
 
-@media screen and (max-width: 770px) {
-  .footer__links {
-    list-style: none;
-    display: inline-flex;
-    column-gap: 18px;
-    padding: 0;
-    margin: 0;
-  }
-}
-
 @media screen and (max-width: 695px) {
   .footer__links {
     flex-direction: column;
