@@ -15,3 +15,6 @@
 ------
 Макет Figma:
 1. https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=63326%3A0&t=2iJobMYigNSIOwbR-0
+------
+Посмотреть что у меня получилось можно здесь :
+* https://expiness.github.io/russian-travel/
