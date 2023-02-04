@@ -9,6 +9,7 @@
   min-height: 740px;
   z-index: 3;
   object-fit: cover;
+  box-sizing: border-box;
 }
 
 .cover__link::before {
@@ -36,7 +37,7 @@
 
 @media screen and (max-width: 1000px) {
   .cover__container {
-    min-height: 640px;
+    min-height: 480px;
   }
 }
 
