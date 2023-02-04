@@ -3,7 +3,21 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-  margin: 0;
+  display: flex;
+  justify-content: start;
+  margin: 92px 0 0 148px;
+}
+
+@media screen and (max-width: 1155px) {
+  .intro__title {
+    margin: 92px 0 0 48px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .intro__title {
+    margin: 88px 0 0 24px;
+  }
 }
 
 @media screen and (max-width: 425px) {
