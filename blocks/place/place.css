@@ -31,7 +31,6 @@
   .place {
     flex-direction: column;
     padding: 0 0 0 16px;
-    margin: 0;
   }
 
   .place:last-of-type {
@@ -41,9 +40,7 @@
 
 @media screen and (max-width: 425px) {
   .place {
-    flex-direction: column;
     padding: 0 0 0 0px;
-    margin: 0;
   }
 
   .place:last-of-type {
